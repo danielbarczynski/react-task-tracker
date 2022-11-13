@@ -1,11 +1,10 @@
-// import React from 'react' // no needed anymore
 import PropTypes from 'prop-types' // snipp: impt
 import Button from './Button';
 
 const Header = ({ title }) => { // snipp: rafce
   return (
     <header className='header'>
-       <h1>{title}</h1> 
+        <h1>{title}</h1> 
         <Button color='red' text='button1' />
         <Button color='green' text='button2' />
         <Button text='button3' /> {/* reusable components */}
